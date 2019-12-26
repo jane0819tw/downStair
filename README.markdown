@@ -4,7 +4,7 @@
 [steps to do this project](https://hackmd.io/OYL2YiMOQsOTmdALVhIh5g?view#%E5%B0%8F%E6%9C%8B%E5%8F%8B%E4%B8%8B%E6%A8%93%E6%A2%AF)
 
 ### SKILLS
-<code>data gui</code>、<code>javascript</code>、<code>Object-oriented programming(oop)</code>
+<code>dat.gui</code>、<code>javascript</code>、<code>Object-oriented programming(oop)</code>
 ### primitive functions
 * board type: <code>hurt</code>、<code>fade</code>、<code>slideLeft</code>、<code>slideRight</code>、<code>normal</code>、<code>jump</code>。
 * the blood system means the guy is dead or not. 
