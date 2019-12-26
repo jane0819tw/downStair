@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>小朋友下樓梯 課後作業</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<canvas id="mycanvas"></canvas>
+<button id="start" onclick="game.start()">START</button>
+<audio id="musicBg" src="http://awiclass.monoame.com/audio/%e5%b0%8f%e6%9c%8b%e5%8f%8b%e4%b8%8b%e6%a8%93%e6%a2%af%20%e8%83%8c%e6%99%af%e9%9f%b3%e6%a8%82.mp3" loop="loop"></audio>
+<audio id="transmiting" src="http://awiclass.monoame.com/audio/%e5%b0%8f%e6%9c%8b%e5%8f%8b%e4%b8%8b%e6%a8%93%e6%a2%af%20%e9%81%8b%e8%bc%b8%e4%b8%ad.mp3" loop="loop"></audio>
+<audio id="hurt" src="http://awiclass.monoame.com/audio/%e5%b0%8f%e6%9c%8b%e5%8f%8b%e4%b8%8b%e6%a8%93%e6%a2%af%20%e8%a2%ab%e5%88%ba.mp3"></audio>
+<audio id="dead" src="http://awiclass.monoame.com/audio/%e5%b0%8f%e6%9c%8b%e5%8f%8b%e4%b8%8b%e6%a8%93%e6%a2%af%20%e6%ad%bb%e6%8e%89.mp3"></audio>
+<audio id="step" src="http://awiclass.monoame.com/audio/%e5%b0%8f%e6%9c%8b%e5%8f%8b%e4%b8%8b%e6%a8%93%e6%a2%af%20%e8%b8%a9.mp3"></audio>
+<audio id="jump" src="http://awiclass.monoame.com/audio/%e5%b0%8f%e6%9c%8b%e5%8f%8b%e4%b8%8b%e6%a8%93%e6%a2%af%20%e5%bd%88%e8%b7%b3.mp3"></audio>
+<audio id="fake" src="https://d1490khl9dq1ow.cloudfront.net/audio/sfx/mp3preview/BsTwCwBHBjzwub4i4/jg-032316-sfx-feedback-incorrect-25_WM.mp3"></audio>
+<audio id="move" src="https://d1490khl9dq1ow.cloudfront.net/audio/sfx/mp3preview/BsTwCwBHBjzwub4i4/birdy-swooshes_Gy7MfSVu_WM.mp3"></audio>
+<audio id="mancu" src="https://d1490khl9dq1ow.cloudfront.net/audio/sfx/mp3preview/BsTwCwBHBjzwub4i4/boy-chewing-a-brownie_GyCZ6h4u_NWM.mp3"></audio>
+<audio id="tulian" src="https://d1490khl9dq1ow.cloudfront.net/audio/sfx/mp3preview/BsTwCwBHBjzwub4i4/jg-032316-sfx-grunt-1-female_WM.mp3"></audio>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.6/dat.gui.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
